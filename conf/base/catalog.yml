@@ -1,0 +1,82 @@
+raw_musicmap:
+  type: pandas.ExcelDataset
+  filepath: data/01_raw/MusicMap.xlsx
+
+processed_musicmap_bot_users:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/processed_musicmap_bot_users.csv
+
+processed_musicmap_human_users:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/processed_musicmap_human_users.csv
+
+processed_musicmap:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/processed_musicmap.csv
+
+plot_univariate:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/univariate_analysis.png
+
+plot_correlation:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/correlation_analysis.png
+
+plot_tenure_correlation:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/tenure_correlation_analysis.png
+
+plot_adopter_vs_non_adopter:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/adopter_vs_non_adopter_analysis.png
+
+mann_whitney_test:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/mann_whitney_u_test.csv
+
+chi_square_test:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/chi_square_test.csv
+
+plot_songs_vs_tenure:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/plot_songs_vs_tenure.png
+
+user_clustering:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/user_clustering.csv
+
+train:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/train.csv
+
+test:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/test.csv
+
+bins:
+  type: MemoryDataset
+
+card_df:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/card_df.csv
+
+model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model.pkl
+
+tree_fig:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/07_model_output/tree.png
+
+performance_summary:
+  type: json.JSONDataset
+  filepath: data/08_reporting/performance_summary.json
+
+train_pic:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/train_performance.png
+
+test_pic:
+  type: matplotlib.MatplotlibWriter
+  filepath: data/08_reporting/test_performance.png

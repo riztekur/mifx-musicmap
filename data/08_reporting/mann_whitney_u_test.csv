@@ -1,0 +1,15 @@
+Variable,P-value,Statistic,Decision
+age,1.2459786811598445e-112,59695266.5,Reject H₀
+friend_cnt,7.514284251851241e-115,217014911.0,Reject H₀
+avg_friend_age,2.6771709800861443e-100,129209853.5,Reject H₀
+avg_friend_male,0.3631303195501866,122366363.5,Fail to Reject H₀
+friend_country_cnt,5.448130855778136e-106,213519092.0,Reject H₀
+subscriber_friend_cnt,0.0,216672855.0,Reject H₀
+songsListened,0.0,247087332.5,Reject H₀
+subscription_spending_$,0.0,268659008.5,Reject H₀
+posts,1.6820006244886285e-63,194976178.5,Reject H₀
+playlists,1.1907795873197944e-131,214898729.0,Reject H₀
+shouts,5.271497676884639e-24,188219779.5,Reject H₀
+tenure,4.505544126898537e-05,187596598.0,Reject H₀
+songsListened_monthly,0.0,248378881.0,Reject H₀
+social_activity,1.0609290917041332e-75,201197262.0,Reject H₀

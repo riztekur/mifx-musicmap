@@ -28,3 +28,6 @@ attr = "mifx_musicmap.__version__"
 [tool.setuptools.packages.find]
 where = [ "src",]
 namespaces = false
+
+[tool.kedro_telemetry]
+project_id = "59d4af72b57d421abee4c4ea2201307f"

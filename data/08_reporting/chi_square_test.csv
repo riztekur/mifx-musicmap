@@ -1,0 +1,4 @@
+Variable,P-value,Statistic,Decision
+good_country,9.600688743349764e-31,138.23660608563236,Reject H₀
+age_category,2.245820049904028e-89,423.7548051463585,Reject H₀
+gender,2.9499555049439504e-53,241.9104396830326,Reject H₀
